@@ -65,12 +65,16 @@
   
 }
  .image{
-  width:min-content;
-  height:300px;
-  padding-left:  50px; 
+  width: 80%;
   margin-left: 50px;
-  position: relative;
-  
+  border-radius: 50px;
+  height: 300px;
+ }
+ .Ifondo{
+background-color: rgb(46, 46, 46);
+border-radius: 50px;
+height: 300px;
+
  }
 .cuerpoD {
   padding-left:  0px;
@@ -106,21 +110,28 @@
  
 }
 .descripcionCon{
-  border: 1px solid seashell;
+  text-align: start;
+  color: aliceblue;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  
+  height: 20 px;
+  
+  
 }
 .contacto{
   color: aliceblue;
   margin-block-end: none;
   padding-inline-end: 0%;
-  border: 1px solid seashell;
+  
   vertical-align: sub;
 }
 .logos{
   margin-block-end: 0%;
-  height: max-content;
+  height: min-content;
   margin-top: 5px;
-  border: 1px solid seashell;
-   
+ 
 }
 .habilidades{
   text-align: start;
@@ -151,6 +162,29 @@
   padding-right: 0px;
   background-color: rgb(206, 206, 206);
 }
+.contenedorEs{
+  height: 400px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(206, 206, 206);
+}
+
+.enlaces{
+  height: 400px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(206, 206, 206);
+  
+}
+.link{
+  text-decoration: solid;
+  color: rgb(170, 35, 58);
+}
+.link:hover{
+  text-decoration: solid;
+  color: rgb(17, 115, 228);
+}
+
  
 
  

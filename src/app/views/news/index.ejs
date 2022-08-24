@@ -7,6 +7,17 @@
   <title>CRUD NEMY</title>
 </head>
 <body>
+
+  <div class="contenedor">
+    <h1>Página de Inicio <%= name %></h1>
+    <% if (login) { %>                
+        <h1>Usuario conectado: <strong><%= name %></strong></h1>                        
+        <a class="btn-xs btn btn-danger" href="logout" class="a-logout">Cerrar cesion</a>
+    <%} else { %>
+        <h1><strong><%= name %></strong></h1>   
+        <a  href="login" class="a-login">Ir a Login</a>
+    <% } %>
+  </div>
     <nav class="navbar navbar-dark bg-dark">
         <a href="" class="navbar-brand mx-auto">Horario</a>
       </nav>
