@@ -1,4 +1,4 @@
-const dbConnection = require('../../config/dbConnection');
+const dbConnection = require('../../production/dbConnection');
 const session = require('express-session')
 module.exports = app => {
 

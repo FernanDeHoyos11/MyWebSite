@@ -1,4 +1,4 @@
-const app = require('./config/server');
+const app = require('./production/server');
 
 require('./app/routes/news')(app);
 

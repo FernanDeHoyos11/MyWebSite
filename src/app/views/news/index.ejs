@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <title>CRUD NEMY</title>
+  <title><%= name %></title>
 </head>
 <body>
 
-  <div class="contenedor">
-    <h1>Página de Inicio <%= name %></h1>
-    <% if (login) { %>                
-        <h1>Usuario conectado: <strong><%= name %></strong></h1>                        
-        <a class="btn-xs btn btn-danger" href="logout" class="a-logout">Cerrar cesion</a>
-    <%} else { %>
-        <h1><strong><%= name %></strong></h1>   
-        <a  href="login" class="a-login">Ir a Login</a>
-    <% } %>
-  </div>
+  
     <nav class="navbar navbar-dark bg-dark">
-        <a href="" class="navbar-brand mx-auto">Horario</a>
+        <a href="" class="navbar-brand mx-auto">Horario de <%= name %></a>
+      
       </nav>
+      <div class="contenedor">
+        <% if (login) { %>                
+            <h1><strong><%= name %></strong> <a class="btn-xs btn" style="background-color: green; color: aliceblue;" href="logout" class="a-logout">Cerrar cesion</a></h1>                        
+            
+        <%} else { %>
+            <h1><strong><%= name %></strong></h1>   
+            <a  href="login" class="a-login">Ir a Login</a>
+        <% } %>
+      </div>
       <br><br>
 <div class="container">
     
